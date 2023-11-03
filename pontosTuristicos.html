@@ -4,6 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pontos Turisticos</title>
+    <style>
+        header nav ul {
+            font-size: 2ch;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        header nav ul li {
+            border-style: outset;
+            padding: 0.5%;
+            background-color: lightgray;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        main {
+            background-color: lightyellow;
+            border-style: groove;
+            padding: 1rem;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+        main div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main div section {
+            border-style: double;
+            margin: 1%;
+            padding: 1%;
+        }
+        main div section img {
+            width: 41%;
+            height: auto;
+            border-style: ridge;
+            border-radius: 10%;
+        }
+        footer {
+            background-color: lightgray;
+            border-style: dashed;
+        }
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+        footer ul li a {
+            text-decoration: none;
+            color: darkblue;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,33 +70,32 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main>    
         <h1>Pontos Turisticos</h1>
         <p>Confira os nossos melhores pontos turisticos.</p>
-        <h2>Alemanha</h2>
-        <section>
-            <h3>Portão de Brandenburgo</h3>
-            <img src="/img/portao-de-brandenburgo-alemanha.jpg" alt="O Portão de Brandenburgo">
-        </section>
-        <section>
-            <h3>Catedral de Colônia</h3>
-            <img src="/img/catedral-colonia-alemanha.jpg" alt="A Catedral de Colônia">
-        </section>
-        <h2>França</h2>
-        <section>
-            <h3>Torre Eifel</h3>
-            <img src="/img/torre-eifel-franca.jpg" alt="Torre Eifel">
-        </section>
-        <section>
-            <h3>Museu do Louvre</h3>
-            <img src="/img/muse-du-louvre-france.jpg" alt="Museu do Louvre">
-        </section>
+        <div>
+            <section>
+            <h2>Alemanha</h2>
+                <h3>Portão de Brandenburgo</h3>
+                <img src="img/portao-de-brandenburgo-alemanha.jpg" alt="O Portão de Brandenburgo">
+                <h3>Catedral de Colônia</h3>
+                <img src="img/catedral-colonia-alemanha.jpg" alt="A Catedral de Colônia">
+            </section>
+            
+            <section>
+            <h2>França</h2>
+                <h3>Torre Eifel</h3>
+                <img src="img/torre-eifel-franca.jpg" alt="Torre Eifel">
+                <h3>Museu do Louvre</h3>
+                <img src="img/muse-du-louvre-france.jpg" alt="Museu do Louvre">
+            </section>
+        </div>
     </main>    
     <footer>
         <ul>
-            <li><a href="#"></a>Facebook</li>
-            <li><a href="#"></a>Linkedin</li>
-            <li><a href="#"></a>Threads</li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">Threads</a></li>
         </ul>
     </footer>
 </body>
