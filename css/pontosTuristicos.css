@@ -1,0 +1,58 @@
+#principal div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#principal section {
+    background-color :white;
+    border-style: double;
+    width: 35rem;
+    padding: 1%;
+}
+#principal img {
+    border-style: ridge;
+    border-radius: 10%;
+    width: 40%;
+    height: auto;
+}
+.flag1, .flag2 {
+    align-items: center;
+    width: 50%;
+}
+
+/* Bandeiras */
+
+.alemanha, .franca {
+    width: 50px;
+    height: 25px;
+    box-shadow: 1px 0px 2px 1px;
+}
+
+/* Bandeira da Alemanha */
+
+.alemanha div {
+    width: 100%;
+    height: 33.33%;
+}
+.preto {
+    background-color: black;
+}
+.vermelho {
+    background-color: red;
+}
+.amarelo {
+    background-color: yellow;
+}
+
+/* Bandeira da França */
+
+.franca div {
+    width: 33.33%;
+    height: 100%;
+}
+.azul {
+    background-color: blue;
+}
+.branco {
+    background-color: white;
+}

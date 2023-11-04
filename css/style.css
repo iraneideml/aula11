@@ -1,0 +1,27 @@
+/* Menu de navegação do cabeçalho e rodapé da página*/
+
+#cabecalho, #rodape {
+    background-color: gainsboro;
+    border-style: dashed;
+    border-width: 3px;
+}
+#cabecalho ul, #rodape ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#cabecalho a, #rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Tela principal do site */
+
+#principal {
+    background-color: rgb(255, 255, 239);
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-style: groove;
+}
